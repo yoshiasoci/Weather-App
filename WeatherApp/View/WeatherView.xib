@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -106,12 +106,12 @@
                 <constraint firstItem="egM-Tf-Fb2" firstAttribute="top" secondItem="GoE-8s-bp4" secondAttribute="bottom" constant="20" id="1OL-MG-0zg"/>
                 <constraint firstItem="cOu-S6-9vR" firstAttribute="trailing" secondItem="egM-Tf-Fb2" secondAttribute="trailing" constant="8" id="1kr-iS-Cmx"/>
                 <constraint firstItem="cOu-S6-9vR" firstAttribute="trailing" secondItem="DGt-v8-DLE" secondAttribute="trailing" constant="8" id="2Pd-aY-PgG"/>
-                <constraint firstItem="fEU-w4-vOK" firstAttribute="top" secondItem="cOu-S6-9vR" secondAttribute="top" constant="20" id="4XL-yv-BCF"/>
                 <constraint firstItem="DGt-v8-DLE" firstAttribute="top" secondItem="fEU-w4-vOK" secondAttribute="bottom" constant="20" id="7Sy-TR-l3n"/>
                 <constraint firstItem="OiV-7u-kFL" firstAttribute="top" secondItem="Y02-3X-MM4" secondAttribute="bottom" constant="20" id="BkN-Ho-L0m"/>
                 <constraint firstItem="OiV-7u-kFL" firstAttribute="centerX" secondItem="cOu-S6-9vR" secondAttribute="centerX" id="CQd-zw-xXy"/>
                 <constraint firstItem="gWu-jG-P6U" firstAttribute="centerY" secondItem="fEU-w4-vOK" secondAttribute="centerY" id="D1W-kG-G3j"/>
                 <constraint firstItem="cOu-S6-9vR" firstAttribute="trailing" secondItem="gWu-jG-P6U" secondAttribute="trailing" constant="8" id="E4b-EG-qSb"/>
+                <constraint firstItem="fEU-w4-vOK" firstAttribute="top" secondItem="cOu-S6-9vR" secondAttribute="top" constant="20" id="GVp-fx-6Zs"/>
                 <constraint firstItem="fEU-w4-vOK" firstAttribute="leading" secondItem="cOu-S6-9vR" secondAttribute="leading" constant="16" id="Qre-AU-21V"/>
                 <constraint firstItem="GoE-8s-bp4" firstAttribute="top" secondItem="DGt-v8-DLE" secondAttribute="bottom" constant="40" id="SfM-dI-0mc"/>
                 <constraint firstItem="DGt-v8-DLE" firstAttribute="leading" secondItem="cOu-S6-9vR" secondAttribute="leading" constant="8" id="Z6j-90-Tfo"/>

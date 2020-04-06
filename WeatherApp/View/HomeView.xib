@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,14 +36,30 @@
                     </constraints>
                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="thin"/>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2020 bt Yoshias Ganteng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CO3-WC-zew">
+                    <rect key="frame" x="87.666666666666671" y="746.33333333333337" width="199.66666666666663" height="13.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yzalprogrammer.wordpress.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNM-Bq-Kqe">
+                    <rect key="frame" x="103.66666666666667" y="760.66666666666663" width="167.66666666666663" height="13.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <constraints>
                 <constraint firstItem="LIW-8y-FFm" firstAttribute="centerX" secondItem="GxU-rc-2oO" secondAttribute="centerX" id="2Ax-lY-ZUF"/>
+                <constraint firstItem="XNM-Bq-Kqe" firstAttribute="top" secondItem="CO3-WC-zew" secondAttribute="bottom" constant="1" id="IiO-xd-eQq"/>
                 <constraint firstItem="GxU-rc-2oO" firstAttribute="centerX" secondItem="ax7-XW-bQA" secondAttribute="centerX" id="NG9-Yq-1dd"/>
+                <constraint firstItem="XNM-Bq-Kqe" firstAttribute="centerX" secondItem="ax7-XW-bQA" secondAttribute="centerX" id="NLh-Tq-pSg"/>
                 <constraint firstItem="9bW-Jw-92Z" firstAttribute="centerX" secondItem="ax7-XW-bQA" secondAttribute="centerX" id="Qfo-ZH-1hg"/>
                 <constraint firstItem="GxU-rc-2oO" firstAttribute="top" secondItem="LIW-8y-FFm" secondAttribute="bottom" constant="0.66666666666668561" id="a0p-2G-Ify"/>
+                <constraint firstItem="XNM-Bq-Kqe" firstAttribute="bottom" secondItem="iYl-Bt-kEs" secondAttribute="bottom" constant="-4" id="a23-hr-6tL"/>
                 <constraint firstItem="9bW-Jw-92Z" firstAttribute="centerY" secondItem="ax7-XW-bQA" secondAttribute="centerY" id="gqo-HB-wgl"/>
                 <constraint firstAttribute="centerY" secondItem="GxU-rc-2oO" secondAttribute="centerY" multiplier="0.8" id="jRP-xu-OHb"/>
+                <constraint firstItem="CO3-WC-zew" firstAttribute="centerX" secondItem="ax7-XW-bQA" secondAttribute="centerX" id="pOy-DH-3lf"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="iYl-Bt-kEs"/>
             <point key="canvasLocation" x="139" y="90"/>
