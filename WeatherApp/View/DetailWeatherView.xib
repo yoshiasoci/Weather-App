@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,13 +20,12 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fwC-cj-XV3">
-                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <color key="backgroundColor" systemColor="quaternarySystemFillColor" red="0.4549019608" green="0.4549019608" blue="0.50196078430000002" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="414" id="Ge6-AZ-NdT"/>
-                        <constraint firstAttribute="height" constant="852" id="XVB-ki-Atm"/>
                     </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wm5-XQ-bym">
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wm5-XQ-bym">
                         <size key="itemSize" width="178" height="282"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -37,8 +36,8 @@
             </subviews>
             <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="fwC-cj-XV3" firstAttribute="bottom" secondItem="ewl-Bl-Ry3" secondAttribute="bottom" constant="34" id="BS3-HT-vaF"/>
                 <constraint firstItem="fwC-cj-XV3" firstAttribute="leading" secondItem="ewl-Bl-Ry3" secondAttribute="leading" id="BbY-m5-6vd"/>
+                <constraint firstAttribute="bottomMargin" secondItem="fwC-cj-XV3" secondAttribute="bottom" id="JWX-wC-AEW"/>
                 <constraint firstItem="ewl-Bl-Ry3" firstAttribute="trailing" secondItem="fwC-cj-XV3" secondAttribute="trailing" id="Mwr-q6-0Jm"/>
                 <constraint firstItem="fwC-cj-XV3" firstAttribute="top" secondItem="ewl-Bl-Ry3" secondAttribute="top" id="XB0-Ik-AnQ"/>
             </constraints>
